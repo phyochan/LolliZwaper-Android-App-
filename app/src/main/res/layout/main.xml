@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <com.startapp.android.publish.banner.bannerstandard.BannerStandard
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+
+    <mmsd.phyochan.lollizwaper.Rabbit.RabbitEditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/ebackground"
+        android:textCursorDrawable="@null"
+        android:singleLine="false"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+android:textColor="#ffffff"
+
+
+        >
+
+
+
+    </mmsd.phyochan.lollizwaper.Rabbit.RabbitEditText>
+
+        <requestFocus />
+
+
+    <LinearLayout
+        android:id = "@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/edt"
+        >
+
+
+    <mmsd.phyochan.lollizwaper.TextView.TharLonTextView
+        android:id="@+id/txthint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/strHint"
+        android:textSize="18dp"
+        android:textColor="#607D8B"
+
+        />
+
+
+    </LinearLayout>
+
+    <mmsd.phyochan.lollizwaper.TextView.TharLonTextView
+        android:id="@+id/txtzawgyi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/strZawgyi"
+        android:textSize="18dp"
+        android:textColor="#607D8B"
+        android:layout_below="@id/linear"
+
+        />
+
+
+
+
+
+
+    <info.hoang8f.widget.FButton
+        android:id = "@+id/btnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/txtzawgyi"
+    fbutton:buttonColor="#607D8B"
+    fbutton:shadowColor="#607D8B"
+        fbutton:cornerRadius="15dp"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="6dp"
+android:layout_marginTop = "20dp"
+        android:text = "@string/strClickMe"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/test"
+        android:drawablePadding="0dp"
+        android:minHeight="80dp"
+        android:minWidth="250dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="-5dp"
+        android:textColor = "#ffffff"
+
+    />
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/scrolltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+
+        <TextView
+            android:layout_width = "fill_parent"
+            android:layout_height = "wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textSize="20dp"
+            android:background="#607D8B"
+
+            />
+
+
+
+
+
+        <mmsd.phyochan.lollizwaper.TextView.TharLonTextView
+            android:layout_width = "fill_parent"
+            android:layout_height = "wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textSize="20dp"
+            android:text = "@string/strWebAddress"
+            android:textColor="#ffffff"
+            android:gravity="center"
+
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

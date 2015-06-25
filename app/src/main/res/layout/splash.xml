@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#607D8B"
+
+    >
+
+
+
+
+
+    <mmsd.phyochan.lollizwaper.TextView.TharLonTextView
+        android:id="@+id/txtappname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/txtappname"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="50dp"
+
+        />
+
+
+
+
+
+
+
+    <mmsd.phyochan.lollizwaper.TextView.TharLonTextView
+        android:id="@+id/txtloading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <com.gc.materialdesign.views.ProgressBarDeterminate
+        android:id="@+id/progressDeterminate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_above="@id/txtloading"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

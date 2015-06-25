@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+   android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/lst_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        >
+
+
+
+    <ImageView
+        android:id="@+id/imgappicon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    </LinearLayout>
+
+
+
+    <mmsd.phyochan.lollizwaper.TextView.TharLonTextView
+        android:id="@+id/txtappname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/lst_linear"
+android:textColor="#607D8B"
+        android:layout_marginLeft="20dp"
+        />
+
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/bntopen"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#607D8B"
+        android:text="Open"
+        android:layout_toRightOf="@id/lst_linear"
+        android:layout_below="@+id/txtappname"
+        android:layout_marginTop = "10dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+
+        />
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/bntinstall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#607D8B"
+        android:text="Download"
+        android:layout_toRightOf="@id/lst_linear"
+        android:layout_below="@+id/txtappname"
+        android:layout_marginTop = "10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+
+
+        />
+
+    <com.gc.materialdesign.views.ProgressBarDeterminate
+        android:id="@+id/progressDeterminate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lst_linear"
+        android:background="#607D8B"
+        android:layout_below="@+id/bntinstall"
+        android:layout_marginTop = "10dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        />
+
+    <mmsd.phyochan.lollizwaper.TextView.TharLonTextView
+        android:id="@+id/txtdownloading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lst_linear"
+        android:layout_below="@id/progressDeterminate"
+        android:layout_marginTop = "5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Downloading . . ."
+        android:visibility="gone"
+        android:textColor="#607D8B"
+
+        />
+
+
+
+</RelativeLayout>

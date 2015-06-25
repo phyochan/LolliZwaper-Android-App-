@@ -1,0 +1,111 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <mmsd.phyochan.lollizwaper.settings.MyPreferenceChatBox
+
+            android:key="pref_converter"
+
+            android:title="Easy Converter"
+
+            android:summary="Easy Converter ကုိ ဖြင့္ထားရန္"
+
+            android:defaultValue="false"
+
+            android:enabled="true"
+
+
+
+            />
+
+
+    <mmsd.phyochan.lollizwaper.settings.MySwitchPreference
+        android:key="pref_converter_unicode"
+        android:summary="Easy Converter ကုိ Zawgyi မွ Unicode သုိ႕​ေျပာင္းရန္"
+        android:defaultValue="false"
+        android:enabled="true"
+
+
+
+
+        />
+
+
+
+
+    <mmsd.phyochan.lollizwaper.settings.MyPreferenceCategory
+        android:title="Application အေၾကာင္း"
+        >
+
+        <mmsd.phyochan.lollizwaper.settings.MyPreference
+            android:selectable="false"
+            android:enabled="true"
+            android:title="App အမည္"
+            android:summary="LolliZwaper" />
+
+
+        <mmsd.phyochan.lollizwaper.settings.MyPreference
+            android:selectable="false"
+            android:enabled="true"
+            android:title="App Version"
+            android:summary="1.1" />
+
+
+
+    </mmsd.phyochan.lollizwaper.settings.MyPreferenceCategory>
+
+
+
+
+    <mmsd.phyochan.lollizwaper.settings.MyPreferenceCategory
+        android:title="Font Converter"
+
+        >
+
+        <mmsd.phyochan.lollizwaper.settings.MyPreference
+            android:selectable="false"
+            android:enabled="true"
+            android:title="Rabbit Converter"
+            android:summary="Credit - Saturngod" />
+
+
+
+       <mmsd.phyochan.lollizwaper.settings.MyPreference
+
+           android:selectable="false"
+           android:enabled="true"
+           android:title="Github Link"
+           android:summary="https://github.com/Rabbit-Converter/Rabbit" />
+
+
+
+    </mmsd.phyochan.lollizwaper.settings.MyPreferenceCategory>
+
+
+    <mmsd.phyochan.lollizwaper.settings.MyPreferenceCategory
+        android:title="App Developer Name"
+        >
+
+    <mmsd.phyochan.lollizwaper.settings.MyPreference
+        android:selectable="false"
+        android:enabled="true"
+        android:title="Developer Name"
+        android:summary="Phyo Chan" />
+
+        <mmsd.phyochan.lollizwaper.settings.MyPreference
+            android:selectable="false"
+            android:enabled="true"
+            android:title="Facebook"
+            android:summary="https://www.facebook.com/phyo.chan.12" />
+
+    <mmsd.phyochan.lollizwaper.settings.MyPreference
+        android:selectable="false"
+        android:enabled="true"
+        android:title="Email"
+        android:summary="phyochan.me@gmail.com" />
+
+
+
+    </mmsd.phyochan.lollizwaper.settings.MyPreferenceCategory>
+
+</PreferenceScreen>

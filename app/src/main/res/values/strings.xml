@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LolliZwaper</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="strWebAddress">www.mmsdromfinder.com</string>
+    <string name="strHint">Unicode ျဖင့္ေရးသားထားေသာ စာမ်ားကုိ Zawgyi ေျပာင္းဖတ္ရန္ အေပၚ Box ထဲကူးထည့္လုိက္ပါ။</string>
+    <string name="strClickMe">Click Me</string>
+    
+    <string name="strZawgyi">System တစ္ခုလုံး Zawgyi ေျပာင္းရန္ႏွိပ္ပါ။</string>
+
+    <string name="strRoot">သင့္ဖုန္းတြင္ Root မရွိပါ။ ဖုန္းအတြင္း Root လုပ္ႏုိင္ေသာ Software မ်ား Download ရယူရန္ Ok ကုိ ႏွိပ္ပါ။</string>
+
+
+    <string name="strDec">Unicode ကေန Zawgyi Convert or Changer
+
+Application အသုံးျပဳနည္း
+
+
+LolliZwaper သည္ Unicode မွ Zawgyi , Zawgyi မွ Unicode သုိ႕ Font Convert ျပဳလုပ္ေပးျပီး ဖတ္လုိ႔ရေအာင္သာျပဳလုပ္ေပးထားျဖစ္ပါသည္။ TextBox မ်ားတြင္စာရုိက္ျခင္း Copy ကူးျခင္းမ်ားျပဳလုပ္ႏုိင္မွာမဟုတ္ပါဘူး။ Facebook အသုံးျပဳေနရင္း Internet အသုံးျပဳေနရင္း အလြယ္တကူ Font Convert လုပ္ႏုိင္ရန္ Easy Converter ကုိ ဖြင့္ထားလုိက္ပါ။ Easy Converter ကုိ Unicode မွ Zawgyi ေျပာင္းရန္ မူရင္း Setting အတုိင္းထားႏုိင္ျပီး Zawgyi မွ Unicode ေျပာင္းရန္ အတြက္ Easy Converter ကုိ Zawgyi မွ Unicode သုိ႕ေျပာင္းရန္တြင္ On ေပးထားလုိက္ပါ။ Android 5.0 နဲ႕ အထက္ ဖုန္းမ်ားကိုေတာ့ System တစ္ခုလုံး Zawgyi Font ေျပာင္းႏုိင္ပါတယ္။ Root Access လုိအပ္ပါတယ္။ Root ရႏုိင္ရန္ အတြက္ ဖုန္းအတြင္းပါ Root ႏုိင္ေသာ Software မ်ားကုိ အလြယ္တကူ Download ရယူႏုိင္မွာျဖစ္ပါတယ္။ ယခု App အတြင္းအသုံးျပဳထားေသာ Font မ်ားအတြက္ Credit ေပးပါတယ္။</string>
+
+</resources>
+
